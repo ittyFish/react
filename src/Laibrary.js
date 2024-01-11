@@ -2,7 +2,7 @@ import { useSelector } from "react-redux";
 import Book from "./book";
 
 const Laibrary = () => {
-    let arr= useSelector((st)=>{return st.arr});
+    let arr= useSelector((st) => {return st.arr});
     return ( <>
     <h1>Laibrary</h1>
     <ul>

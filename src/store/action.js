@@ -12,3 +12,23 @@ export const deleteBook=(bookId)=>{
     }
 }
 
+ export const selectedBookToShow = (bookshow)  =>{
+    return{
+        type:"SELECTED_BOOK_TO_SHOW",
+        payload:bookshow
+    }
+ }
+
+ export const selectedBookToEdit=(book)=>{
+    return{
+        type:"SELECTED_BOOK _TO_EDIT",
+        payload:book
+    }
+ }
+
+ export const saveEditedBook=(editBook)=>{
+    return{
+        type:"SAVE_EDIT_BOOK",
+        payload:editBook
+    }
+ }
